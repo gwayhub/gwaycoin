@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gwaycoin
+Comment=Gwaycoin P2P Cryptocurrency
+Comment[fr]=Gwaycoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Gwaycoin, eşten eşe kriptografik sanal para birimi
+Exec=gwaycoin-qt %u
+Terminal=false
+Type=Application
+Icon=gwaycoin128
+MimeType=x-scheme-handler/gwaycoin;
+Categories=Office;Finance;

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/gwaycoin_bg.qm</file>
+        <file alias="de">locale/gwaycoin_de.qm</file>
+        <file alias="en">locale/gwaycoin_en.qm</file>
+        <file alias="es">locale/gwaycoin_es.qm</file>
+        <file alias="fi">locale/gwaycoin_fi.qm</file>
+        <file alias="fr">locale/gwaycoin_fr.qm</file>
+        <file alias="it">locale/gwaycoin_it.qm</file>
+        <file alias="ja">locale/gwaycoin_ja.qm</file>
+        <file alias="pl">locale/gwaycoin_pl.qm</file>
+        <file alias="pt">locale/gwaycoin_pt.qm</file>
+        <file alias="ru">locale/gwaycoin_ru.qm</file>
+        <file alias="sk">locale/gwaycoin_sk.qm</file>
+        <file alias="sv">locale/gwaycoin_sv.qm</file>
+        <file alias="vi">locale/gwaycoin_vi.qm</file>
+        <file alias="zh_CN">locale/gwaycoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/gwaycoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+usr/local/bin/gwaycoin-qt usr/bin
+share/pixmaps/gwaycoin32.xpm usr/share/pixmaps
+share/pixmaps/gwaycoin16.xpm usr/share/pixmaps
+share/pixmaps/gwaycoin128.png usr/share/pixmaps
+debian/gwaycoin-qt.desktop usr/share/applications
+debian/gwaycoin-qt.protocol usr/share/kde4/services/
