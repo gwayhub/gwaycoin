@@ -10,9 +10,10 @@
 #
 # If you like the script extensions (visible install, daemon log rotation, sentinel
 # option, the final screen, etc), you may also donate to os (osnwt):
-#   BTC: 1D7nv1AitpNcTBKo2EHxBEN1oNVA7YgQ7H
-#   ETH: 0x1d64Fb3635c0b20d2f081E706aD52703652f0614
-#   LTC: LKh9V4nbD2pae87s5iFitYVp24qyJi5K8k
+#   BTC:  1D7nv1AitpNcTBKo2EHxBEN1oNVA7YgQ7H
+#   ETH:  0x1d64Fb3635c0b20d2f081E706aD52703652f0614
+#   LTC:  LKh9V4nbD2pae87s5iFitYVp24qyJi5K8k
+#   GWAY: g6ehtAqEMh5FEeqnKLehkEsyxVcRS7vFvB
 #
 
 RUNAS="root"
@@ -94,14 +95,16 @@ function ask_yn() {
 }
 
 function ask_components() {
-  echo -e "You are going to install or upgrade ${GREEN}$COIN_NAME masternode${NC} and/or ${GREEN}Sentinel${NC}."
+  #echo -e "You are going to install or upgrade ${GREEN}$COIN_NAME masternode${NC} and/or ${GREEN}Sentinel${NC}."
+  echo -e "You are going to install or upgrade ${GREEN}$COIN_NAME masternode${NC}."
   echo -e "This script will also install the complete build environment, so you may compile/install any other coins later."
   echo -e ""
   ask_yn "Install masternode and build environment (type ${GREEN}Y${NC} or ${RED}N${NC}): "
   INSTALL_MASTERNODE=$?
 
-  ask_yn "Install Sentinel (type ${GREEN}Y${NC} or ${RED}N${NC}): "
-  INSTALL_SENTINEL=$?
+  #ask_yn "Install Sentinel (type ${GREEN}Y${NC} or ${RED}N${NC}): "
+  #INSTALL_SENTINEL=$?
+  INSTALL_SENTINEL=0
 }
 
 function prepare_system() {
@@ -393,15 +396,16 @@ function important_information() {
   echo -e "Used according to GNU GPL 3.0 terms and conditions."
   echo
   echo -e "If you find it useful, please donate to the original author (${RED}zoldur${NC}):"
-  echo -e "  BTC: 3MNhbUq5smwMzxjU2UmTfeafPD7ag8kq76"
-  echo -e "  ETH: 0x26B9dDa0616FE0759273D651e77Fe7dd7751E01E"
-  echo -e "  LTC: LeZmPXHuQEhkd8iZY7a2zVAwF7DCWir2FF"
+  echo -e "  BTC:  3MNhbUq5smwMzxjU2UmTfeafPD7ag8kq76"
+  echo -e "  ETH:  0x26B9dDa0616FE0759273D651e77Fe7dd7751E01E"
+  echo -e "  LTC:  LeZmPXHuQEhkd8iZY7a2zVAwF7DCWir2FF"
   echo
   echo -e "If you like the script extensions (${GREEN}visible install, daemon log rotation, sentinel, the final screen${NC}),"
   echo -e "you may also donate to os (${RED}osnwt${NC}):"
-  echo -e "  BTC: 1D7nv1AitpNcTBKo2EHxBEN1oNVA7YgQ7H"
-  echo -e "  ETH: 0x1d64Fb3635c0b20d2f081E706aD52703652f0614"
-  echo -e "  LTC: LKh9V4nbD2pae87s5iFitYVp24qyJi5K8k"
+  echo -e "  BTC:  1D7nv1AitpNcTBKo2EHxBEN1oNVA7YgQ7H"
+  echo -e "  ETH:  0x1d64Fb3635c0b20d2f081E706aD52703652f0614"
+  echo -e "  LTC:  LKh9V4nbD2pae87s5iFitYVp24qyJi5K8k"
+  echo -e "  GWAY: g6ehtAqEMh5FEeqnKLehkEsyxVcRS7vFvB"
   echo -e "${GREEN}================================================================================================================================${NC}"
 }
 
