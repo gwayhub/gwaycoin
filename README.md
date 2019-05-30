@@ -1,10 +1,5 @@
-Gwaycoin Core staging tree 1.0.0
-===============================
-
-`master:` [![Build Status](https://travis-ci.org/gwaycoin/gwaycoin.svg?branch=master)](https://travis-ci.org/gwaycoin/gwaycoin) `develop:` [![Build Status](https://travis-ci.org/gwaycoin/gwaycoin.svg?branch=develop)](https://travis-ci.org/gwaycoin/gwaycoin/branches)
-
-https://www.gwaycoin.org
-
+Gwaycoin Core staging tree 1.0.1
+================================
 
 What is Gwaycoin?
 ----------------

@@ -6,7 +6,7 @@ architectures:
 - "amd64"
 packages:
 - "faketime"
-reference_datetime: "2019-02-28 00:00:00"
+reference_datetime: "2019-05-28 00:00:00"
 remotes:
 - "url": "https://github.com/gwayhub/gwaycoin-detached-sigs.git"
   "dir": "signature"
